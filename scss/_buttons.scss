@@ -1,0 +1,19 @@
+// Button overrides
+
+
+
+
+.btn-success {
+    background: $green !important;
+    color: #ffffff;
+}
+ 
+.btn-success:hover {
+    background: #10684d !important;
+}
+ 
+.btn-success:active {
+    background: #10684d !important;
+    box-shadow: none;
+}
+    

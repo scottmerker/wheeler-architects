@@ -1,0 +1,104 @@
+//Custom
+
+// Fixers
+.room-top {margin-top:30px;}
+.room-bottom {margin-bottom: 30px;}
+.give-room {margin-top:5px;}
+.less-width {padding: 0 40px}
+
+//Brand
+.brand-container {
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.brand-type {
+    text-align: center; 
+    color: $black;
+    font-size:3em;
+    @include serif-font;
+}
+.brand-city {
+    text-align: center; 
+    color:$black; 
+    font-size:1em;}
+
+.logomark-container {
+    text-align: center; 
+    margin:auto; 
+}
+
+img.logomark {
+
+    width:120px;
+}
+
+img.small-logomark {
+
+    width:40px;
+}
+
+//Project 360
+
+.logo360 {
+   background-image: url('/img/360-logo.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+@media (max-width: 767.98px) {
+    .logo360 {
+        background-size: 100px;
+        
+    }
+}
+
+@media (max-width: 767.98px) {
+    footer {
+        text-align: center !important;
+        
+    }
+}
+
+// Blocks
+.tan-block {
+    background-color: $lt-tan;
+    padding:35px;
+        h5 {
+        font-style: italic;
+        font-size:2em;
+        color:$green;
+        }
+}
+
+.medium-tan-block {
+    
+    background-color: $medium-tan;
+    
+        h5 {
+        font-style: italic;
+        font-size:2em;
+        color:$green;
+        }
+}
+
+
+
+// Add-in color
+
+.red {
+    color: $primary;
+
+   
+}
+ .slant {font-style: italic}
+// Flair
+h3.flair {
+    border-left:6px solid $primary;
+    margin-left:-20px;
+    padding-left:15px;
+    color: $primary;
+}
+
+// Text mods
+.call-text {font-size:80%; }
