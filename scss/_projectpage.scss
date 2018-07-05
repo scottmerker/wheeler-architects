@@ -1,0 +1,12 @@
+// Project pages
+
+.project-title {
+    @include script-font;
+    font-size:1.2em;
+}
+
+img.project-image {
+    max-height:200px;
+    
+    &:hover {cursor: pointer; border:2px solid red;}
+}

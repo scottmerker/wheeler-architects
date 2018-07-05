@@ -37,10 +37,17 @@ img.small-logomark {
     width:40px;
 }
 
+img.smaller-logomark {
+
+    width:20px;
+    position: relative;
+    top:50px;
+}
+
 //Project 360
 
 .logo360 {
-   background-image: url('https://scottmerker.github.io/wheeler-architects/img/360-logo.png');
+   background-image: url('/img/360-logo.png');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 400px;
@@ -79,6 +86,28 @@ img.small-logomark {
         font-style: italic;
         font-size:2em;
         color:$green;
+        }
+}
+
+section#page-header {
+    padding: 50px 5px 40px 5px; 
+    margin-bottom:50px;
+}
+
+.page-header {
+    background-color: $medium-tan;
+
+    background-image: url('/img/page-header.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        h2 {
+            @include script-font;
+            font-style: italic;
+            font-size:2em;
+            font-weight:100;
+            color:$white;
+            padding-top:30px;
         }
 }
 
