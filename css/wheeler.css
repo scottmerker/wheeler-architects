@@ -721,7 +721,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("..img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -877,7 +877,7 @@ img.smaller-logomark {
 }
 
 .logo360 {
-  background-image: url("/img/360-logo.png");
+  background-image: url("img/360-logo.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 400px;
@@ -922,7 +922,7 @@ section#page-header {
 }
 
 .page-header {
-  background-image: url("/img/page-header.jpg");
+  background-image: url("img/page-header.jpg");
   background-color: #e1e1de;
   background-repeat: no-repeat;
   background-position: top center;
