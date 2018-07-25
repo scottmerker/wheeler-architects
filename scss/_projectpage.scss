@@ -7,6 +7,10 @@
 
 img.project-image {
     max-height:200px;
-    
-    &:hover {cursor: pointer; border:2px solid red;}
+    box-sizing: border-box;
+    &:hover {cursor: pointer; border:2px solid red; border}
+}
+
+.project-modal-window {
+  h5 {color: $primary;}
 }

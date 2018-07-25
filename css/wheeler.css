@@ -1,11 +1,8 @@
 /*!
- * Start Bootstrap - Agency v4.1.1 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
+ Wheeler Architects - Compiled Styles */
 body {
-  overflow-x: hidden;
   font-family: "proxima-nova",sans-serif;
+  overflow-x: hidden;
 }
 
 p {
@@ -32,23 +29,23 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: 700;
   font-family: "futura-pt-bold", sans-serif;
+  font-weight: 700;
 }
 
 h5 {
-  font-weight: 500;
   font-family: "futura-pt", sans-serif;
   margin-bottom: 30px;
   font-size: 140%;
+  font-weight: 500;
 }
 
 h6 {
-  font-weight: 700;
   font-family: "futura-pt", sans-serif;
   font-style: italic;
-  text-align: center;
   color: #4a5860;
+  text-align: center;
+  font-weight: 700;
 }
 
 section {
@@ -56,18 +53,18 @@ section {
 }
 
 section h2.section-heading {
-  font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  font-size: 40px;
 }
 
 section h3.section-subheading {
-  font-size: 16px;
-  font-weight: 400;
-  font-style: italic;
+  font-family: "futura-pt", sans-serif;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: "futura-pt", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
@@ -79,24 +76,24 @@ section h3.section-subheading {
 .btn {
   font-family: "futura-pt", sans-serif;
   font-style: italic;
-  font-weight: 400;
   border-radius: 0px;
+  font-weight: 400;
 }
 
 .btn-xl {
-  font-size: 18px;
   padding: 20px 40px;
+  font-size: 18px;
 }
 
 .btn-primary {
-  background-color: #c94331;
   border-color: #c94331;
+  background-color: #c94331;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #aa392a !important;
-  border-color: #aa392a !important;
   color: white;
+  border-color: #aa392a !important;
+  background-color: #aa392a !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -131,15 +128,17 @@ img::-moz-selection {
 
 .modal-custom .modal-dialog {
   max-width: 800px;
-  border: 0px !important;
   padding: 0px;
+  border: 0px !important;
 }
 
 .modal-custom .img-head {
   height: 250px;
-  background-attachment: scroll;
-  background-position: center center;
   margin-bottom: 25px;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .modal-custom .modal-body {
@@ -147,11 +146,11 @@ img::-moz-selection {
 }
 
 .modal-custom .close-modal {
-  float: right;
+  z-index: 999;
   position: absolute;
   top: 10px;
   right: 15px;
-  z-index: 999;
+  float: right;
   color: #fff;
   font-size: 22px;
 }
@@ -161,7 +160,7 @@ img::-moz-selection {
 }
 
 .modal-custom .port-img-overflow {
-  max-height: 350px !important;
+  max-height: 1200px !important;
   overflow-y: auto;
 }
 
@@ -174,8 +173,8 @@ img::-moz-selection {
 }
 
 .modal-backdrop {
-  background-color: #000;
   opacity: .7 !important;
+  background-color: #000;
 }
 
 #mainNav {
@@ -846,21 +845,21 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .brand-type {
-  text-align: center;
-  color: #000;
-  font-size: 3em;
   font-family: "futura-pt", sans-serif;
+  color: #000;
+  text-align: center;
+  font-size: 3em;
 }
 
 .brand-city {
-  text-align: center;
   color: #000;
+  text-align: center;
   font-size: 1em;
 }
 
 .logomark-container {
-  text-align: center;
   margin: auto;
+  text-align: center;
 }
 
 img.logomark {
@@ -872,15 +871,15 @@ img.small-logomark {
 }
 
 img.smaller-logomark {
-  width: 20px;
   position: relative;
   top: 50px;
+  width: 20px;
 }
 
 .logo360 {
   background-image: url("/img/360-logo.png");
-  background-position: center top;
   background-repeat: no-repeat;
+  background-position: center top;
   background-size: 400px;
 }
 
@@ -897,14 +896,14 @@ img.smaller-logomark {
 }
 
 .tan-block {
-  background-color: #f4f4f1;
   padding: 35px;
+  background-color: #f4f4f1;
 }
 
 .tan-block h5 {
-  font-style: italic;
-  font-size: 2em;
   color: #0c563f;
+  font-size: 2em;
+  font-style: italic;
 }
 
 .medium-tan-block {
@@ -912,32 +911,32 @@ img.smaller-logomark {
 }
 
 .medium-tan-block h5 {
-  font-style: italic;
-  font-size: 2em;
   color: #0c563f;
+  font-size: 2em;
+  font-style: italic;
 }
 
 section#page-header {
-  padding: 50px 5px 40px 5px;
   margin-bottom: 50px;
+  padding: 50px 5px 40px 5px;
 }
 
 .page-header {
-  background-color: #e1e1de;
   background-image: url("/img/page-header.jpg");
-  background-position: top center;
+  background-color: #e1e1de;
   background-repeat: no-repeat;
+  background-position: top center;
   background-size: cover;
 }
 
 .page-header h2 {
   font-family: "futura-pt", sans-serif;
   font-style: italic;
-  font-style: italic;
-  font-size: 2em;
-  font-weight: 100;
-  color: #fff;
   padding-top: 30px;
+  color: #fff;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 100;
 }
 
 .red {
@@ -949,10 +948,10 @@ section#page-header {
 }
 
 h3.flair {
-  border-left: 6px solid #c94331;
   margin-left: -20px;
   padding-left: 15px;
   color: #c94331;
+  border-left: 6px solid #c94331;
 }
 
 .call-text {
@@ -960,17 +959,17 @@ h3.flair {
 }
 
 .home-project-grid {
-  text-align: center;
-  color: white;
-  background-color: #c7c7b7;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
+  color: white;
+  background-color: #c7c7b7;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  text-align: center;
 }
 
 .home-project-grid .container-fluid {
@@ -978,36 +977,36 @@ h3.flair {
 }
 
 .home-project-grid .p-grid-item {
-  background-color: #c7c7b7;
-  background-position: center center;
-  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 200px !important;
+  background-color: #c7c7b7;
+  background-repeat: no-repeat;
+  background-position: center center;
   filter: grayscale(100%);
 }
 
 .p-grid-item .p-text {
   position: relative;
-  text-align: left;
   padding: 20px;
+  text-align: left;
   font-size: 85%;
 }
 
 .p-grid-item .p-text {
   visibility: hidden;
-  background-color: #0c563f;
-  opacity: .9;
   height: 100%;
+  opacity: .9;
+  background-color: #0c563f;
 }
 
 .p-grid-item:hover {
   color: #fff;
   opacity: .9;
-  cursor: pointer !important;
   filter: grayscale(0%);
+  cursor: pointer !important;
 }
 
 .p-grid-item:hover .p-text {
@@ -1022,17 +1021,16 @@ h3.flair {
 }
 
 .project-bumper {
-  background: #e6f1ed;
   min-height: 100px;
-  text-align: left;
-  color: #0c563f;
   padding: 45px 0px;
+  color: #0c563f;
+  background: #e6f1ed;
+  text-align: left;
 }
 
 .project-bumper h5 {
-  font-style: italic;
   font-size: 200%;
-  weight: 200;
+  font-style: italic;
 }
 
 .project-title {
@@ -1048,6 +1046,10 @@ img.project-image {
 img.project-image:hover {
   cursor: pointer;
   border: 2px solid red;
+}
+
+.project-modal-window h5 {
+  color: #c94331;
 }
 
 .btn-success {
