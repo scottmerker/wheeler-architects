@@ -1041,6 +1041,7 @@ h3.flair {
 
 img.project-image {
   max-height: 200px;
+  box-sizing: border-box;
 }
 
 img.project-image:hover {
