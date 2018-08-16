@@ -1061,6 +1061,11 @@ img.project-image:hover {
   color: #c94331;
 }
 
+.testimonial .quote {
+  color: #c94331;
+  font-size: 2em;
+}
+
 .btn-success {
   background: #0c563f !important;
   color: #ffffff;
