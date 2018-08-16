@@ -33,12 +33,13 @@ h4 {
   font-weight : 700;
 }
 
-h5 {
+h5{
   @include        serif-font;
   margin-bottom : 30px;
   font-size     : 140%;
   font-weight   : 500;
 }
+
 
 h6 {
   @include      script-font;

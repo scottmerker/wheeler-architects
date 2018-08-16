@@ -60,7 +60,7 @@ img.smaller-logomark {
 // Project 360
 
 .logo360 {
-  background-image    : url('img/360-logo.png');
+  background-image    : url('../img/360-logo.png');
   background-repeat   : no-repeat;
   background-position : center top;
   background-size     : 400px;
@@ -103,13 +103,16 @@ img.smaller-logomark {
   }
 }
 
+.medium-tan-block-blk {
+  background-color : $medium-tan;
+}
+
 section#page-header {
   margin-bottom : 50px;
   padding       : 50px 5px 40px 5px;
 }
 
 .page-header {
-  background-image    : url('img/page-header.jpg');
   background-color    : $medium-tan;
   background-repeat   : no-repeat;
   background-position : top center;
@@ -118,7 +121,7 @@ section#page-header {
   h2 {
     @include      script-font;
     padding-top : 30px;
-    color       : $white;
+    color       : $black;
     font-size   : 2em;
     font-style  : italic;
     font-weight : 100;
@@ -148,4 +151,9 @@ h3.flair {
 
 .call-text {
   font-size : 80%;
+}
+img.cover-border{
+  border: 1px solid $gray-200;
+  padding:10px;
+
 }

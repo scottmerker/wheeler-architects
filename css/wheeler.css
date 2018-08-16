@@ -877,7 +877,7 @@ img.smaller-logomark {
 }
 
 .logo360 {
-  background-image: url("img/360-logo.png");
+  background-image: url("../img/360-logo.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 400px;
@@ -916,13 +916,16 @@ img.smaller-logomark {
   font-style: italic;
 }
 
+.medium-tan-block-blk {
+  background-color: #e1e1de;
+}
+
 section#page-header {
   margin-bottom: 50px;
   padding: 50px 5px 40px 5px;
 }
 
 .page-header {
-  background-image: url("img/page-header.jpg");
   background-color: #e1e1de;
   background-repeat: no-repeat;
   background-position: top center;
@@ -933,7 +936,7 @@ section#page-header {
   font-family: "futura-pt", sans-serif;
   font-style: italic;
   padding-top: 30px;
-  color: #fff;
+  color: #000;
   font-size: 2em;
   font-style: italic;
   font-weight: 100;
@@ -956,6 +959,11 @@ h3.flair {
 
 .call-text {
   font-size: 80%;
+}
+
+img.cover-border {
+  border: 1px solid #e9ecef;
+  padding: 10px;
 }
 
 .home-project-grid {
