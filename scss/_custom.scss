@@ -153,7 +153,13 @@ h3.flair {
   font-size : 80%;
 }
 img.cover-border{
-  border: 1px solid $gray-200;
+  border: 4px solid $gray-200;
   padding:10px;
 
+}
+
+.testimonial > hr {border-bottom:5px solid $gray-200 !important;}
+
+.modal {
+  overflow-y:auto !important;
 }
