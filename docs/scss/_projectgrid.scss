@@ -1,0 +1,71 @@
+// Grid stuff
+
+.home-project-grid {
+  @include                background-cover;
+  width                 : 100%;
+  color                 : white;
+  background-color      : $tan;
+  background-repeat     : no-repeat;
+  background-attachment : scroll;
+  background-position   : center center;
+  text-align            : center;
+
+  .container-fluid {
+    padding : 0px;
+  }
+
+  .p-grid-item {
+    @include              background-cover;
+    height              : 200px !important;
+    background-color    : $tan;
+    background-repeat   : no-repeat;
+    background-position : center center;
+    filter              : grayscale(100%);
+  }
+}
+
+.p-grid-item .p-text {
+  position   : relative;
+  padding    : 20px;
+  text-align : left;
+  font-size  : 85%;
+}
+
+.p-grid-item .p-text {
+  visibility       : hidden;
+  height           : 100%;
+  opacity          : .9;
+  background-color : $green;
+}
+
+.p-grid-item:hover {
+  color   : $white;
+  opacity : .9;
+  filter  : grayscale(0%);
+  cursor  : pointer !important;
+}
+
+.p-grid-item:hover .p-text {
+  visibility : visible;
+}
+
+.p-head {
+  @include        script-font;
+  margin-bottom : 10px;
+  font-size     : 140%;
+}
+
+// Bumper
+
+.project-bumper {
+  min-height : 100px;
+  padding    : 45px 0px;
+  color      : $green;
+  background : $lt-green;
+  text-align : left;
+
+  h5 {
+    font-size  : 200%;
+    font-style : italic;
+  }
+}

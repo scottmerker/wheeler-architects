@@ -1,0 +1,122 @@
+// Styling for the navbar
+#mainNav {
+  background-color: $white;
+  .navbar-toggler {
+    font-size: 11px;
+    right: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: $primary;
+    @include heading-font;
+      float:right;
+  }
+  .navbar-brand {
+    color: $black;
+    @include serif-font;
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken($primary, 10%);
+    }
+  }
+  .navbar-nav {
+      margin:auto;
+      margin-bottom:20px;
+    .nav-item {
+      .nav-link {
+        font-size: 100%;
+        font-weight: normal;
+        padding: 0.75em 0;
+        letter-spacing: 1px;
+        color: white;
+        @include serif-font;
+        &.active,
+        &:hover {
+          color: $primary;
+            border-bottom: 2px solid $primary;
+        }
+      }
+    }
+  }
+}
+
+.navbar-collapse a.nav-link {
+    color:#000 !important;
+}
+
+.navbar-toggler {
+    margin:auto;
+}
+
+//Alt Nav 
+
+#altNav {
+    position:fixed; 
+    top:0; 
+    padding:0px; 
+    background:#fff; 
+    height:55px; 
+    width:100%;
+    z-index: 99;
+}
+
+#altNav img.logomark {
+    height:30px;
+    width:30px;
+    position:relative;
+    top:-8px
+}
+#altNav .navbar-nav {
+    margin-bottom:0px !important;
+    background: $white
+}
+
+
+@media(min-width:994px){
+    #altNav li.nav-item {font-size: 85%}
+}
+@media(min-width:1150px){
+    #altNav li.nav-item {font-size: 100%}
+}
+
+
+// Nav media queries
+@media(min-width:992px) {
+  #mainNav {
+
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+    .navbar-brand {
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+            color:#000;
+          padding: .2em .9em;
+        }
+      }
+    }
+    &.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: $white;
+      .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+         
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,23 @@
+// Mixins
+// Background Cover Mixin
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// Font Mixins
+@mixin serif-font {
+font-family: "futura-pt", sans-serif;
+}
+@mixin script-font {
+ font-family: "futura-pt", sans-serif;
+ font-style: italic;
+}
+@mixin body-font {
+ font-family: "proxima-nova",sans-serif;
+}
+@mixin heading-font {
+  font-family: "futura-pt-bold", sans-serif;
+}

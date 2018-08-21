@@ -1,0 +1,16 @@
+// Project pages
+
+.project-title {
+    @include script-font;
+    font-size:1.2em;
+}
+
+img.project-image {
+    max-height:200px;
+    box-sizing: border-box;
+    &:hover {cursor: pointer; border:2px solid red;}
+}
+
+.project-modal-window {
+  h5 {color: $primary;}
+}

@@ -962,8 +962,16 @@ h3.flair {
 }
 
 img.cover-border {
-  border: 1px solid #e9ecef;
+  border: 4px solid #e9ecef;
   padding: 10px;
+}
+
+.testimonial > hr {
+  border-bottom: 5px solid #e9ecef !important;
+}
+
+.modal {
+  overflow-y: auto !important;
 }
 
 .home-project-grid {

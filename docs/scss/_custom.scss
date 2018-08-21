@@ -1,0 +1,165 @@
+// Custom
+
+// Fixers
+
+.room-top {
+  margin-top : 30px;
+}
+
+.room-bottom {
+  margin-bottom : 30px;
+}
+
+.give-room {
+  margin-top : 5px;
+}
+
+.less-width {
+  padding : 0 40px;
+}
+
+// Brand
+
+.brand-container {
+  margin-top    : 40px;
+  margin-bottom : 20px;
+}
+
+.brand-type {
+  @include     serif-font;
+  color      : $black;
+  text-align : center;
+  font-size  : 3em;
+}
+
+.brand-city {
+  color      : $black;
+  text-align : center;
+  font-size  : 1em;
+}
+
+.logomark-container {
+  margin     : auto;
+  text-align : center;
+}
+
+img.logomark {
+  width : 120px;
+}
+
+img.small-logomark {
+  width : 40px;
+}
+
+img.smaller-logomark {
+  position : relative;
+  top      : 50px;
+  width    : 20px;
+}
+
+// Project 360
+
+.logo360 {
+  background-image    : url('../img/360-logo.png');
+  background-repeat   : no-repeat;
+  background-position : center top;
+  background-size     : 400px;
+}
+
+@media
+  (max-width : 767.98px) {
+  .logo360 {
+    background-size : 100px;
+  }
+}
+
+@media
+  (max-width : 767.98px) {
+  footer {
+    text-align : center !important;
+  }
+}
+
+// Blocks
+
+.tan-block {
+  padding          : 35px;
+  background-color : $lt-tan;
+
+  h5 {
+    color      : $green;
+    font-size  : 2em;
+    font-style : italic;
+  }
+}
+
+.medium-tan-block {
+  background-color : $medium-tan;
+
+  h5 {
+    color      : $green;
+    font-size  : 2em;
+    font-style : italic;
+  }
+}
+
+.medium-tan-block-blk {
+  background-color : $medium-tan;
+}
+
+section#page-header {
+  margin-bottom : 50px;
+  padding       : 50px 5px 40px 5px;
+}
+
+.page-header {
+  background-color    : $medium-tan;
+  background-repeat   : no-repeat;
+  background-position : top center;
+  background-size     : cover;
+
+  h2 {
+    @include      script-font;
+    padding-top : 30px;
+    color       : $black;
+    font-size   : 2em;
+    font-style  : italic;
+    font-weight : 100;
+  }
+}
+
+// Add-in color
+
+.red {
+  color : $primary;
+}
+
+.slant {
+  font-style : italic;
+}
+
+// Flair
+
+h3.flair {
+  margin-left  : -20px;
+  padding-left : 15px;
+  color        : $primary;
+  border-left  : 6px solid $primary;
+}
+
+// Text mods
+
+.call-text {
+  font-size : 80%;
+}
+img.cover-border{
+  border: 4px solid $gray-200;
+  padding:10px;
+
+}
+
+.testimonial > hr {border-bottom:5px solid $gray-200 !important;}
+
+.modal {
+  overflow-y:auto !important;
+}

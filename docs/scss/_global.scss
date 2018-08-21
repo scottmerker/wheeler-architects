@@ -1,0 +1,190 @@
+// Global styling for this template
+
+body {
+  @include     body-font;
+  overflow-x : hidden;
+}
+
+p {
+  line-height : 1.75;
+}
+
+a {
+  color : $primary;
+
+  &:hover {
+    color : darken($primary, 10%);
+  }
+}
+
+a.tiny-link {
+  font-size : 80%;
+}
+
+.text-primary {
+  color : $primary !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @include      heading-font;
+  font-weight : 700;
+}
+
+h5{
+  @include        serif-font;
+  margin-bottom : 30px;
+  font-size     : 140%;
+  font-weight   : 500;
+}
+
+
+h6 {
+  @include      script-font;
+  color       : $off-blue;
+  text-align  : center;
+  font-weight : 700;
+}
+
+section {
+  padding : 100px 0;
+
+  h2.section-heading {
+    margin-top    : 0;
+    margin-bottom : 15px;
+    font-size     : 40px;
+  }
+
+  h3.section-subheading {
+    @include         serif-font;
+    margin-bottom  : 75px;
+    text-transform : none;
+    font-size      : 16px;
+    font-style     : italic;
+    font-weight    : 400;
+  }
+}
+
+@media(min-width:768px)
+   {
+  section {
+    padding : 150px 0;
+  }
+}
+
+// Button Styles
+
+.btn {
+  @include        script-font;
+  border-radius : 0px;
+  font-weight   : 400;
+}
+
+.btn-xl {
+  padding   : 20px 40px;
+  font-size : 18px;
+}
+
+.btn-primary {
+  border-color     : $primary;
+  background-color : $primary;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color            : white;
+    border-color     : darken($primary, 7.5%) !important;
+    background-color : darken($primary, 7.5%) !important;
+  }
+
+  &:active,
+  &:focus {
+    box-shadow : 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
+  }
+}
+
+.btn-download {
+  // padding-right:30px;
+  margin-top : 0px;
+}
+
+// Highlight color customization
+
+::-moz-selection {
+  background  : $primary;
+  text-shadow : none;
+}
+
+::selection {
+  background  : $primary;
+  text-shadow : none;
+}
+
+img::selection {
+  background : transparent;
+}
+
+img::-moz-selection {
+  background : transparent;
+}
+
+// Modals
+
+.modal-custom {
+  .container-fluid {
+    padding : 0px;
+  }
+
+  .modal-dialog {
+    max-width : 800px;
+    padding   : 0px;
+    border    : 0px !important;
+  }
+
+  .img-head {
+    height                : 250px;
+    margin-bottom         : 25px;
+    background-attachment : scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position   : center center;
+  }
+
+  .modal-body {
+    padding : 0px;
+  }
+
+  .close-modal {
+    z-index   : 999;
+    position  : absolute;
+    top       : 10px;
+    right     : 15px;
+    float     : right;
+    color     : $white;
+    font-size : 22px;
+  }
+
+  .modal-pad {
+    padding : 15px !important;
+  }
+
+  .port-img-overflow {
+    max-height : 1200px !important;
+    overflow-y : auto;
+  }
+
+  img {
+    margin-bottom : 10px;
+  }
+
+  .close-modal:hover {
+    cursor : pointer;
+  }
+}
+
+.modal-backdrop {
+  opacity          : .7 !important;
+  background-color : #000;
+}
